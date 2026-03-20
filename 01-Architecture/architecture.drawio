@@ -1,0 +1,97 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:148.0) Gecko/20100101 Firefox/148.0" version="29.6.4">
+  <diagram name="Page-1" id="kSFSuGBaBw923V_xZdfl">
+    <mxGraphModel dx="786" dy="419" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="lFDBi4cdRdGJsGV0hoXP-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Azure Policy &amp;amp; Compliance Controls&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="270" x="285" y="132" as="geometry" />
+        </mxCell>
+        <mxCell id="lFDBi4cdRdGJsGV0hoXP-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=light-dark(#647687,#CCCCCC);fontColor=#ffffff;strokeColor=#314354;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Azure Resources (Storage, RG, etc.)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="74" width="270" x="287" y="237" as="geometry" />
+        </mxCell>
+        <mxCell id="lFDBi4cdRdGJsGV0hoXP-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=light-dark(#f0a30a, #ffff00);strokeColor=#BD7000;fontColor=#000000;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;Azure Activity Logs (Control Plane)&lt;/span&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="70" width="280" x="279" y="357" as="geometry" />
+        </mxCell>
+        <mxCell id="lFDBi4cdRdGJsGV0hoXP-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=light-dark(#fa6800, #ffff00);fontColor=#000000;strokeColor=#C73500;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;Log Analytics Workspace&lt;/span&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="80" width="275" x="282" y="474" as="geometry" />
+        </mxCell>
+        <mxCell id="lFDBi4cdRdGJsGV0hoXP-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#990000);" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Risk Register&lt;br&gt;(Control → Risk Mapping)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="70" width="280" x="285" y="844" as="geometry" />
+        </mxCell>
+        <mxCell id="lFDBi4cdRdGJsGV0hoXP-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Microsoft Sentinel (SIEM)&lt;br&gt;Analytics Rules (KQL)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="80" width="280" x="279.5" y="601" as="geometry" />
+        </mxCell>
+        <mxCell id="lFDBi4cdRdGJsGV0hoXP-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#990099);" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Automation Layer (Logic Apps)&lt;br&gt;Evidence Collection&lt;/font&gt;" vertex="1">
+          <mxGeometry height="70" width="280" x="280" y="726" as="geometry" />
+        </mxCell>
+        <mxCell id="lFDBi4cdRdGJsGV0hoXP-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#006633);" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Dashboard &amp;amp; Executive Report&lt;/font&gt;" vertex="1">
+          <mxGeometry height="70" width="280" x="280" y="959" as="geometry" />
+        </mxCell>
+        <mxCell id="lFDBi4cdRdGJsGV0hoXP-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Enforces compliance controls" vertex="1">
+          <mxGeometry height="30" width="190" x="463" y="197" as="geometry" />
+        </mxCell>
+        <mxCell id="lFDBi4cdRdGJsGV0hoXP-17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Analyzed using KQL rules" vertex="1">
+          <mxGeometry height="30" width="190" x="454" y="567" as="geometry" />
+        </mxCell>
+        <mxCell id="lFDBi4cdRdGJsGV0hoXP-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Triggers incident-based workflows" vertex="1">
+          <mxGeometry height="30" width="240" x="450" y="687" as="geometry" />
+        </mxCell>
+        <mxCell id="lFDBi4cdRdGJsGV0hoXP-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Creates/updates risk entries" vertex="1">
+          <mxGeometry height="30" width="240" x="438" y="807" as="geometry" />
+        </mxCell>
+        <mxCell id="lFDBi4cdRdGJsGV0hoXP-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;Aggregated for executive reporting" vertex="1">
+          <mxGeometry height="30" width="240" x="438" y="917" as="geometry" />
+        </mxCell>
+        <mxCell id="lFDBi4cdRdGJsGV0hoXP-21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Compliance Results&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="187" x="50" y="237" as="geometry" />
+        </mxCell>
+        <mxCell id="lFDBi4cdRdGJsGV0hoXP-23" edge="1" parent="1" source="lFDBi4cdRdGJsGV0hoXP-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.834;entryY=0.028;entryDx=0;entryDy=0;entryPerimeter=0;" target="lFDBi4cdRdGJsGV0hoXP-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lFDBi4cdRdGJsGV0hoXP-28" edge="1" parent="1" source="lFDBi4cdRdGJsGV0hoXP-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.004;entryY=0.401;entryDx=0;entryDy=0;entryPerimeter=0;" target="lFDBi4cdRdGJsGV0hoXP-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lFDBi4cdRdGJsGV0hoXP-33" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="418.5" y="317" as="sourcePoint" />
+            <mxPoint x="418.5" y="357" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lFDBi4cdRdGJsGV0hoXP-35" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="418.5" y="434" as="sourcePoint" />
+            <mxPoint x="418.5" y="474" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lFDBi4cdRdGJsGV0hoXP-37" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="418.5" y="561" as="sourcePoint" />
+            <mxPoint x="418.5" y="601" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lFDBi4cdRdGJsGV0hoXP-39" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="419.5" y="686" as="sourcePoint" />
+            <mxPoint x="419.5" y="726" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lFDBi4cdRdGJsGV0hoXP-41" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="421.5" y="804" as="sourcePoint" />
+            <mxPoint x="421.5" y="844" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lFDBi4cdRdGJsGV0hoXP-42" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="419.5" y="919" as="sourcePoint" />
+            <mxPoint x="419.5" y="959" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lFDBi4cdRdGJsGV0hoXP-43" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;Enterprise GRC Automation Architecture (Azure-based)&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="500" x="190" y="57" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
